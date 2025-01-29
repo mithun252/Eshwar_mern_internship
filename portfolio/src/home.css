@@ -1,0 +1,51 @@
+.home-container {
+  display: flex;
+  align-items: center; /* Vertically align all items */
+  justify-content: space-between; /* Push items to occupy full width */
+  background-color: #4b4744;
+  padding: 60px;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(214, 7, 7, 0.1);
+  width: 1070px;
+  color: #fff;
+  position: relative; /* Ensure proper alignment of child elements */
+}
+
+.text-section {
+  flex: 1; /* Use remaining space */
+  margin-right: 20px; /* Add spacing between text and other elements */
+  text-align: left;
+}
+
+.profile-img {
+  border-radius: 50%;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  margin-right: 20px; /* Add space between the image and the text section */
+}
+
+nav {
+  display: flex;
+  flex-direction: column; /* Stack navigation items vertically */
+  align-items: flex-start; /* Align links to the left within the nav */
+  justify-content: center; /* Center nav links vertically */
+  background-color: #000000;
+  padding: 20px;
+  row-gap: 10px; /* Add space between nav links */
+  color: #fff;
+  border-radius: 10px; /* Optional: Add rounded corners to the nav */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow to the nav */
+  width: 200px; /* Fixed width for the nav section */
+}
+
+nav a {
+  color: rgb(255, 255, 255); /* White text for links */
+  text-decoration: none; /* Remove underline from links */
+  padding: 10px; /* Add padding to each link */
+  font-size: 18px; /* Set font size */
+}
+
+nav a:hover {
+  color: #d41414; /* Highlight link color on hover */
+}
