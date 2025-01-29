@@ -1,0 +1,58 @@
+day wise folder 6jan2025 
+inside two folders 
+1)content
+2)hands on
+
+assignment 1)tailwind css
+
+ES 6
+js Ecma script
+arrow function - under es 6
+
+for efficiency in terms of space and to increase the readability 
+we can create functions without name and it is called as arrow function
+
+document.getElementById("response").innerHTML = howareyou();
+   |            |            |          |            |
+js object      method     id name    property   arrow function
+
+design a simple calculator by taking two numbers as input and display addition , subtraction, product, quotient, remainder, by creating individual arrow function for the same
+
+create an array by taking array size and array elements from the user extract all the perfect numbers and even prime numbers from the array
+
+write a promise called Andhra - bp, distance  Andhra - A = 5000, Andhra - B = 2000, Andhra - c = 1000,, expected output is CBA
+
+when there is more than one promise , to review them we can use promise inbuilt method according to the requirement
+
+Methods
+1) promise.all
+2) promise.any
+3) promise.allsettled
+4) promise.race
+
+
+
+
+1.create a folder called react in desktop.
+2.cmd promt 
+3.node -v
+4.npm -v
+5.npx create-react-app demo
+6.npm start
+
+two important folders in react
+1.public folder
+2.src folder
+
+three important files
+1.index.html
+2.index.js
+3.index.css
+
+Note: As of now don't touch index file
+2.Initially write your code in app.js
+
+DOM
+react follows virtual dom(v-dom)
+here unlike html once dom gets created the changes or manipulation what we do gets completed and only that part will be re-rendered
+whereas in html every time we macke change entire dom will be re-rendered
